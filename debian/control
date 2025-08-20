@@ -1,0 +1,12 @@
+Source: ros-jazzy-ewellix-driver
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-controller-interface, ros-jazzy-controller-manager, ros-jazzy-controller-manager-msgs, ros-jazzy-ewellix-interfaces, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-serial, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ewellix-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-controller-interface, ros-jazzy-controller-manager, ros-jazzy-controller-manager-msgs, ros-jazzy-ewellix-interfaces, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-serial, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: Ewellix lift ROS 2 driver
