@@ -78,6 +78,9 @@ public:
   bool
   errorTriggered();
 
+  void
+  getInitialState();
+
 private:
   std::string port_;
   int baud_;
@@ -90,6 +93,7 @@ private:
   float rated_effort_;
   float tolerance_;
   float frequency_;
+  EwellixSerial::EncoderLimit encoder_limits_;
   rclcpp::TimerBase::SharedPtr run_timer_;
 
   std::vector<int>encoder_positions_, encoder_commands_;
