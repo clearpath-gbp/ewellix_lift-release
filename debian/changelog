@@ -1,0 +1,36 @@
+ros-jazzy-ewellix-examples (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 22 Oct 2025 04:00:00 -0000
+
+ros-jazzy-ewellix-examples (0.2.0-1noble) noble; urgency=high
+
+  * Update license in package.xml
+  * Merge pull request #9 <https://github.com/clearpathrobotics/ewellix_lift/issues/9> from clearpathrobotics/feature/viz
+    Feature:  Move RViz and Simulation to ewellix_lift_common
+  * Move RViz and Simulation to ewellix_lift_common
+  * Update ign to gz in dependencies
+  * Migrate gazebo away from ignition
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 20 Aug 2025 04:00:00 -0000
+
+ros-jazzy-ewellix-examples (0.1.0-1noble) noble; urgency=high
+
+  * Use GroupAction instead of PythonExpression conditions
+  * Set default velocity scaling factor to 1.0
+  * Standardize up_down_meters script
+  * Add simulation example
+  * Add parameters to select between lift 0 and 1
+  * Add example to move using HW IF
+  * Added example package
+  * Add simulation example
+  * Add parameters to select between lift 0 and 1
+  * Add example to move using HW IF
+  * Added example package
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 15 Jan 2025 05:00:00 -0000
+
+
