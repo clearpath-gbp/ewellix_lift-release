@@ -1,0 +1,58 @@
+ros-jazzy-ewellix-driver (0.2.1-1noble) noble; urgency=high
+
+  * Thread sleep
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 22 Oct 2025 04:00:00 -0000
+
+ros-jazzy-ewellix-driver (0.2.0-1noble) noble; urgency=high
+
+  * Update license in package.xml
+  * Merge pull request #7 <https://github.com/clearpathrobotics/ewellix_lift/issues/7> from Ayush1285/feat/last-position
+    Update the initial state of the lift.
+  * Merge pull request #4 <https://github.com/clearpathrobotics/ewellix_lift/issues/4> from Ayush1285/humble
+    Encoder limits as configurable parameters
+  * Fetch prev position
+  * Added encoder limit struct
+  * Added upper and lower limits as member variables
+  * Added encoder lower and upper limits params.
+  * Contributors: Ayush Singh, Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 20 Aug 2025 04:00:00 -0000
+
+ros-jazzy-ewellix-driver (0.1.0-1noble) noble; urgency=high
+
+  * Removed logging
+  * Remove INFO logs
+  * Switch to stop before execute motion
+  * Add recovery
+  * Add Out and In execute functions
+  * Catch overcurrent
+  * Remove INFO logs
+  * Switch to stop before execute motion
+  * Add recovery
+  * Add Out and In execute functions
+  * Catch overcurrent
+  * Duplicate joint count to account for mimic joints
+  * Use ewellix_interfaces instead of std
+  * Add new interfaces
+  * Update default port
+  * Reset package versions to 0.0.0
+  * Add custom messages
+  * Fix parameters
+  * Initialize vectors in each line
+  * Use this to reference member methods
+  * Remove unused source file
+  * Refactor Ewellix node to use asynchronous thread
+  * Remove commented out code
+  * Use CycleData2 and asyncThread
+  * Use classes instead of structs
+  * Update hardware_interface to use DataCycle2
+  * Use DataCycle2 in node
+  * Add DataCycle2
+  * Initial add of Ewellix driver
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 15 Jan 2025 05:00:00 -0000
+
+
