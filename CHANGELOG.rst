@@ -2,6 +2,11 @@
 Changelog for package ewellix_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2026-03-04)
+------------------
+* Pass encoder limits to hardware interface
+* Contributors: Luis Camero
+
 0.2.2 (2026-02-26)
 ------------------
 * Switched to unique_ptr.
